@@ -85,11 +85,8 @@ p.text-about {
 
 .line {
     width: 100%;
+    border-bottom: 1px solid rgb(173, 173, 173);
 }
 
-.line-borde {
-    width: 10%;
-    border-bottom: 1px solid rgb(173, 173, 173);
-    
-}
+
 

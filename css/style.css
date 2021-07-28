@@ -1,72 +1,95 @@
-.nav-bar {
+
+#section-nav-bar {
+    background-color: rgb(46, 40, 40);
+}
+
+.fullpage-wrapper {
+    background-color: rgb(101, 196, 158);
+}
+
+.filler-box {
+    text-align: center;
+}
+
+img.img-avatar {
+    width: 100px;
+}
+
+img.img-cabin {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#about {
+    margin-bottom: 200px;
+}
+
+p.text-about {
+    padding: 10px 0 ;
+}
+
+.btn-bg {
+    background-color: rgb(101, 196, 158);
+    border-color: rgb(101, 196, 158);
+}
+
+.btn-download {
+    border-color: white;
+    color: white;
+    background-color: rgb(101, 196, 158);
+}
+
+#about-footer {
+    background-color: rgb(58, 84, 109);
+}
+
+#copyright-footer {
+    background-color: rgb(44, 62, 80);
+}
+
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .show > .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
     height: 100px;
-    background-color: #3e3c3c;
 }
 
-.jambotron { 
-    background-color: rgb(73, 168, 132); 
+.navbar-light .navbar-toggler {
+    border-color: white;
 }
 
-.img-profile {
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.form-control {
+    border:none;    
+    border-bottom: 1px solid rgb(173, 173, 173);
+    border-radius: 0;
+}
+
+.line {
     width: 100%;
-    text-align: center;
 }
 
-div.img-profile > img { 
-    width: 40%;
-    padding: 20px;
-}
-
-h1.title,
-div.jambotron p,
-div.footer p {
-    padding-bottom: 10px;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-.contain-card {
-    width: 90%;
-    margin: 0 auto;
-}
-
-div.card {
+.line-borde {
+    width: 10%;
+    border-bottom: 1px solid rgb(173, 173, 173);
     
-
-}
-
-div.img-house {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvpp8AHdQBqd8zaN46fxO2NaCvqRZhZ6kKyA&usqp=CAU);
-    width: 100%;
-    background-size: contain;
-    height: 200px;  
-    display: inline-block;
-}
-
-.text-about {
-    width: 75%;
-    margin: 0 auto;
-}
-
-.card {
-    margin: 10px;
-}
-
-.contact {
-    width: 75%;
-    margin: 0 auto;
-}
-
-.input {
-    font-family:Tahoma, Geneva, sans-serif;
-    font-size:16px;
-    outline:none;
-    border:none;
-    border-style: none;
-    font-weight:bold;
-}
-
-div input.input.msg {
-    height: 150px;
 }
 
